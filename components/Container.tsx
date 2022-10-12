@@ -55,9 +55,9 @@ export default function Container(props: any) {
         <nav className="flex items-center justify-between w-full max-w-[1000px] mx-auto relative border-gray-200 pt-4 pb- sm:pb-8 text-gray-900 bg-gray-50 ">
           <div className="ml-[-0.60rem]">
             <div className="visible md:hidden">
-              <NavLink href="/" text="Home" />
+              <NextLink href="/">Home</NextLink>
             </div>
-            <NextLink href="/">Home</NextLink>
+            <NavLink href="/" text="Home" />
             {/* <NavLink href="/wmdw" text="wmdw" /> */}
           </div>
         </nav>

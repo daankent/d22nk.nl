@@ -12,7 +12,7 @@ function Link({ title, icon, href, iconColor }: any) {
   return (
     <NextLink href={href}>
       <a>
-        <div className="flex flex-row items-center bg-white p-2 border-gray-200 border-2 rounded-xl mt-4 w-full hover:border-gray-400 hover:cursor-pointer">
+        <div className="flex flex-row items-center bg-white p-2 border-gray-200 border-2 rounded-xl my-2 w-full hover:border-gray-400 hover:cursor-pointer">
           <div className={`p-2  align-middle ${iconColor}`}>{icon}</div>
           <h1 className="p-2 text-2xl   flex-1">{title} </h1>
           <div className="p-2">
@@ -29,7 +29,7 @@ export default function Links() {
     <div className="flex flex-col w-full ">
       <Link
         title="Instagram"
-        href="https://instagram.com"
+        href="https://instagram.com/kentropdaan"
         icon={<FaInstagram size={32} />}
         iconColor="text-purple-600"
       />
