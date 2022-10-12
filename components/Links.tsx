@@ -48,12 +48,12 @@ export default function Links() {
         iconColor="text-gray-600"
       />
 
-      <Link
+      {/* <Link
         title="Bereal"
         href="https://bere.al/daankent"
         icon={<h1 className="text-2xl mx-[0.6rem]">B</h1>}
         iconColor="text-gray-600"
-      />
+      /> */}
     </div>
   );
 }
