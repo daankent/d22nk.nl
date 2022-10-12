@@ -2,6 +2,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import NextLink from "next/link";
 import cn from "classnames";
+
+import Footer from "../components/Footer";
 function NavLink({ href, text }: any) {
   const router = useRouter();
   const isActive = router.asPath === href;
@@ -50,7 +52,7 @@ export default function Container(props: any) {
         <meta name="twitter:image" content={meta.image} />
       </Head>
       <div className="flex flex-col justify-center px-8">
-        <nav className="flex items-center justify-between w-full max-w-[1000px] mx-auto relative border-gray-200 pt-4 pb- sm:pb-8 text-gray-900 bg-gray-50 bg-opacity-60">
+        <nav className="flex items-center justify-between w-full max-w-[1000px] mx-auto relative border-gray-200 pt-4 pb- sm:pb-8 text-gray-900 bg-gray-50 ">
           <div className="ml-[-0.60rem]">
             <div className="visible md:hidden">
               <NavLink href="/" text="Home" />
@@ -62,8 +64,8 @@ export default function Container(props: any) {
       </div>
       <main id="skip" className="flex flex-col  px-8 bg-gray- min-h-screen">
         {children}
-        {/* <Footer /> */}
       </main>
+      <Footer />
     </div>
   );
 }
