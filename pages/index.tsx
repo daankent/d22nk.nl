@@ -18,7 +18,7 @@ const Home: NextPage = () => {
               alt="Daan Kentrop"
               height={176}
               width={176}
-              src="/images/profile.JPEG"
+              src="/images/profile.jpg"
               sizes="30vw"
               priority
               className="rounded-full filter grayscale"
