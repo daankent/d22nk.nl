@@ -43,7 +43,7 @@ export default function Links() {
 
       <Link
         title="Github"
-        href="https://github.com/d22nk"
+        href="https://github.com/daankent"
         icon={<FaGithub size={32} />}
         iconColor="text-gray-600"
       />
